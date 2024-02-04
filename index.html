@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/34aebef170.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="fa-regular fa-moon" id="darkMode-icon"></div>
+
+        <div class="fa-solid fa-bars" id="menu-icon"></div>
+    </header>
+
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Ketaki More</h1>
+            <p>
+                I'm a web developer who loves to create beautiful and functional websites
+                for people who want to make a difference in the world.
+            </p>
+            <p>Currently I'm a student of The JSPM NTC, PUNE, where I'm learning how to
+            create beautiful and functional websites using HTML, CSS, JavaScript.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='fa-brands fa-facebook'></i></a>
+                <a href="#"><i class='fa-brands fa-twitter'></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class='fa-brands fa-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h3>Android Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Student</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/about.png" alt="">
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Ketaki,
+                a passionate web developer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about web development
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found
+                them useful and informative. 
+                If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    
+    <section class="services" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Focusing on creating user friendly and unique web application using html-5,css-3,javascript</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h3>Java + Android</h3>
+                <p>Focusing on creating java based projects using swing, awt, springboot etc.Also creating android apps.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Online Agri Market</h4>
+                    <p>The project is an e-commerce website that provides online platform for farmers.Used technologies are PHP,html,css,Mysql etc.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Hostel Management App</h4>
+                    <p>The project is actually an android app that focuses on providing various facilities to hostellers. Used technologies are Android Studio,Java,XML,Firebase DB,etc.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>File Converter</h4>
+                    <p>The project focuses on handling various file conversions and changing extensions. Used technologies are Java,swing,awt,spring,etc.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   
+    <script src="js/script.js"></script>
+</body>
+
+</html>
